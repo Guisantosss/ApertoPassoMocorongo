@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="8o6I0E-1xYIGXuv-0c9l">
+    <mxGraphModel dx="860" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-4" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="DUy4W-8ompCRfLJ3FtRi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="INICIO&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="FIM&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="335" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-7" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DUy4W-8ompCRfLJ3FtRi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="IDENTIFICAR A LÂMPADA QUEIMADA" vertex="1">
+          <mxGeometry height="60" width="280" x="250" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-9" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DUy4W-8ompCRfLJ3FtRi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-14" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="DUy4W-8ompCRfLJ3FtRi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="LÂMPADA ESTÁ LIGADA?" vertex="1">
+          <mxGeometry height="110" width="110" x="335" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="445" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-16" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DUy4W-8ompCRfLJ3FtRi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DESLIGAR A ENERGIA" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="-145" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-17" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DUy4W-8ompCRfLJ3FtRi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-20" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="DUy4W-8ompCRfLJ3FtRi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="ENEGIA DESLIGADA?" vertex="1">
+          <mxGeometry height="120" width="100" x="790" y="-175" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-35" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="DUy4W-8ompCRfLJ3FtRi-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INSTALAR LÂMAPADA NOVA&lt;div&gt;&amp;nbsp;E&lt;/div&gt;&lt;div&gt;LIGAR A ENERGIA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="780" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-29" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="DUy4W-8ompCRfLJ3FtRi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="PROBLEMA RESOLVIDO" vertex="1">
+          <mxGeometry height="100" width="110" x="555" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-33" edge="1" parent="1" source="DUy4W-8ompCRfLJ3FtRi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" target="DUy4W-8ompCRfLJ3FtRi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUy4W-8ompCRfLJ3FtRi-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="455" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
