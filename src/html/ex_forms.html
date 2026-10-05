@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Isometra&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+
+            font-family: "Inter", sans-serif;
+    
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <center>
+    <h1>FORMULARIO COMPLEMETAR PARA A FORÇA MILITAR!</h1>
+    <p>Por favor preecha com seus dados correramente!</p>
+    </center>
+    
+    
+
+    <form action="/enviar" method="POST">
+
+        <fieldset>
+            <legend><b>1. INFORMAÇÕES PESSOAIS</b></legend>
+
+            <p>
+                <label for="nome">Nome Completo:</label></label>
+                <input type="text" id="name" name="nome" placeholder="Ex: João vitor" required size="50"> 
+
+            </p>
+            <p>
+                <label for="nome">Nome de Guerra:</label></label>
+                <input type="text" id="name" name="nome" placeholder="Ex: G Santos" required size="50"> 
+
+            </p>
+            <p>
+                <label for="data">Data de praça:</label></label>
+                <input type="data" id="data" name="data" placeholder="Ex: 01/03/2021" required size="50"> 
+
+            </p>
+            <p>
+                <label for="email">Email para Contato:</label></label>
+                <input type="email" id="email" name="email" placeholder="Ex: nome@exemplo.com" required size="20"> 
+
+            </p>
+            <p>
+                <label for="cpf">CPF:</label></label>
+                <input type="cpf" id="cpf" name="cpf" placeholder="000.000.000-00" required size="20"> 
+
+            </p>
+            <p>
+                <label for="id_militar">Identidade Militar:</label></label>
+                <input type="id_militar" id="id_militar" name="id_militar" placeholder="N° Registro" required size="20"> 
+            </p>
+            
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend><b>2. Informações Funcionais</b></legend>
+
+            <p>
+                <label for="posto_grad">Posto/Graduação: </label><br><br>
+                <select id="posto_grad" name="posto_grad" required>
+                <option value="">Selecione...</option>
+                <option value="soldado">Soldado</option>
+                <option value="cabo">Cabo</option>
+                <option value="sargento">Sargento</option>
+                <option value="subtenent">Subtenente</option>
+                <option value="aspirante">Aspirante</option>
+                <option value="tenente">Tenente</option>
+                <option value="capitao">Capitão</option>
+                <option value="major">Major</option>
+                <option value="tencoronel">TenCoronel</option>
+                <option value="coronel">Coronel</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="setor">Seção ou Setor </label>
+                <input type="text" id="setor" name="setor " placeholder="Ex:Almoxerifado" required size="40">
+            </p>
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+
+             <fieldset>
+            <legend><b>3. Contato e Localização</b></legend>
+            
+        
+           <p>
+
+    <label for="celular">Celular / Telefone:</label><br>
+    <input 
+        type="tel" 
+        id="celular" 
+        name="celular" 
+        placeholder="(99) 99999-9999" 
+        pattern="[0-9]{2}[0-9]{5}[0-9]{4}" 
+        title="Digite apenas números com o DDD. Exemplo: 11999999999"
+        required 
+        size="20">
+</p>
+
+             <p>
+                <label for="endereco">Endereço Residencial:</label><br>
+                <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro, cidade - UF" required size="50">
+            </p>
+
+            
+            
+            <label for="radio">Marque a Opção correta: </label>
+            <input type="radio" id="radio" name="radio" required size="40">
+            <label for="radio">A+ </label>
+            <input type="radio" id="radio" name="radio" required size="40">
+            <label for="radio">A- </label>
+            <input type="radio" id="radio" name="radio" required size="40">
+            <label for="radio">O+ </label>
+            <input type="radio" id="radio" name="radio" required size="40">
+            <label for="radio">O- </label>
+            <input type="radio" id="radio" name="radio" required size="40">
+            <label for="radio">B+
+                <input type="radio" id="radio" name="radio" required size="40">
+            <label for="radio">B- </label>
+            <input type="radio" id="radio" name="radio" required size="40">
+            
+            
+            
+            <center>
+           <button type="reset"><b>Limpar Dados</b></button>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+           <button type="submit"><b>Enviar Cadastro</b></button>
+           </center>
+            
+            
+
+        </fieldset>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
