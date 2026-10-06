@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Inter", sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        /* ---------- Cabeçalho ---------- */
+        header {
+            background-color: #e30613;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: "Bangers", cursive;
+            font-size: 80px;
+            letter-spacing: 4px;
+            text-align: center;
+            margin: 0 0 10px;
+        }
+
+        /* ---------- Menu ---------- */
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu a {
+            display: block;
+            padding: 8px 14px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 20px;
+            transition: background-color 0.2s;
+        }
+
+        .menu a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .menu .destaque a {
+            background-color: #222;
+        }
+
+        .menu .selecionado a {
+            background-color: white;
+            color: #e30613;
+        }
+
+        /* ---------- Vitrine de produtos ---------- */
+        main {
+            padding: 30px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        table {
+            margin: 0 auto;
+            border-spacing: 20px;
+        }
+
+        td {
+            width: 260px;
+            background-color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            vertical-align: top;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        td:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            border-radius: 5px;
+        }
+
+        .nome {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+
+        .preco {
+            font-size: 22px;
+            font-weight: 800;
+            color: #e30613;
+            margin: 0 0 10px;
+        }
+
+        .preco span {
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #777;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #222;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e30613;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Centauro</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Dia das Crianças</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li class="destaque"><a href="#">Homens</a></li>
+                <li class="selecionado"><a href="#">Mulheres</a></li>
+                <li><a href="#">Infantil</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Roupas</a></li>
+                <li><a href="#">Corrida</a></li>
+                <li><a href="#">Futebol</a></li>
+                <li><a href="#">Basquete</a></li>
+                <li><a href="#">Suplementos</a></li>
+                <li><a href="#">Marcas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tênis em destaque</h2>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="tenis branco.png" alt="Tênis branco">
+                    <p class="nome">Tênis Branco</p>
+                    <p class="preco"><span>à vista</span>R$ 299,90</p>
+                    <button>Comprar</button>
+                </td>
+                <td>
+                    <img src="tenisnike.png" alt="Tênis Nike">
+                    <p class="nome">Tênis Nike</p>
+                    <p class="preco"><span>à vista</span>R$ 199,90</p>
+                    <button>Comprar</button>
+                </td>
+                <td>
+                    <img src="tenisfutebol.png" alt="Tênis de futebol">
+                    <p class="nome">Tênis Futebol</p>
+                    <p class="preco"><span>à vista</span>R$ 249,90</p>
+                    <button>Comprar</button>
+                </td>
+                <td>
+                    <img src="tenispreto.png" alt="Tênis preto">
+                    <p class="nome">Tênis Preto</p>
+                    <p class="preco"><span>à vista</span>R$ 399,90</p>
+                    <button>Comprar</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="hocks.png" alt="Tênis Hocks">
+                    <p class="nome">Tênis Hocks</p>
+                    <p class="preco"><span>à vista</span>R$ 279,90</p>
+                    <button>Comprar</button>
+                </td>
+                <td>
+                    <img src="nikebrancocorrida.png" alt="Tênis Nike branco de corrida">
+                    <p class="nome">Nike Corrida Branco</p>
+                    <p class="preco"><span>à vista</span>R$ 459,90</p>
+                    <button>Comprar</button>
+                </td>
+                <td>
+                    <img src="mizuno.png" alt="Tênis Mizuno">
+                    <p class="nome">Tênis Mizuno</p>
+                    <p class="preco"><span>à vista</span>R$ 499,90</p>
+                    <button>Comprar</button>
+                </td>
+                <td>
+                    <img src="tenisbrancoeverlast.png" alt="Tênis Everlast branco">
+                    <p class="nome">Everlast Branco</p>
+                    <p class="preco"><span>à vista</span>R$ 229,90</p>
+                    <button>Comprar</button>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+</html>

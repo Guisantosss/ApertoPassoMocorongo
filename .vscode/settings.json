@@ -1,0 +1,24 @@
+{
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "editor.snippetSuggestions": "none",
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "html.suggest.html5": false,
+  "html.autoClosingTags": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.triggerExpansionOnTab": false,
+  "css.completion.triggerPropertyValueCompletion": false,
+  "css.completion.completePropertyWithSemicolon": false
+}
