@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * { 
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Inter", sans-serif;
+        }
+        
+        
+        header {
+            background-color: rgb(7, 233, 93); 
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Espalha esquerda, centro e direita */
+            flex-wrap: wrap; /* Garante que quebre linha se a tela for pequena */
+            gap: 15px;
+        }
+        
+        
+        .lado-esquerdo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+        }
+
+        .icone-menu {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        
+        h1 {
+            font-family: "Bangers", cursive;
+            font-size: 45px;
+            letter-spacing: 2px;
+            text-align: center;
+            margin: 0;
+            color: white;
+        }
+        
+        
+        .ladodireito {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .ladodireito a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.15); 
+            transition: background-color 0.2s;
+        }
+
+        .ladodireito a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        
+        .barra-navegacao {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eaeaea;
+            padding: 10px 0;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu a {
+            display: block;
+            padding: 6px 12px;
+            color: #333333; 
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 20px;
+            transition: all 0.2s;
+        }
+
+        .menu a:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            color: rgb(0, 156, 60);
+        }
+
+        
+        table {
+            margin: 20px auto;
+            border-spacing: 20px;
+            max-width: 1000px;
+        }
+
+        h2 {
+            color: #111111; 
+            margin: 0 0 8px 0;
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        h2:hover {
+            color: rgb(0, 156, 60);
+            cursor: pointer;
+        }
+
+        p {
+            color: #666666;
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        img {
+            width: 300px; 
+            height: auto;
+            border-radius: 4px; 
+        }
+    </style>    
+</head>
+<body>
+
+    
+    <header class="barra-topo">
+        <div class="lado-esquerdo">
+            <span class="icone-menu">☰</span>
+            <span>MENU</span>
+        </div>
+
+        <h1>FUTEBOL</h1>
+
+        <div class="ladodireito">
+            <a href="#" class="botao-buscar">🔍 BUSCAR</a>
+            <a href="#" class="botao-login">👤 Entrar com Conta Globo</a>
+        </div>
+    </header>
+
+    
+    <nav class="barra-navegacao">
+        <ul class="menu">
+            <li><a href="#">Vôlei</a></li>
+            <li><a href="#">Futebol</a></li>
+            <li><a href="#">Peteca</a></li>
+            <li><a href="#">Pebolim</a></li>
+            <li><a href="#">Jogo da velha</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Handebol</a></li>
+            <li><a href="#">Basquete</a></li>
+         </ul>
+    </nav>
+
+  
+    <div class="blocoproduto">
+        <table>
+            <tr>
+                <td><img src="img/noticia1.png" alt="camisa verde"></td>
+                <td style="vertical-align: top;">
+                    <h2>Artilheiro da Chapecoense na temporada, Marcinho fala sobre futuro no clube</h2>
+                    <p>Atacante está há mais de três anos no Verdão e lembrou momentos marcantes </p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/noticia02.png" alt="camisa verde"></td>
+                <td style="vertical-align: top;">
+                    <h2>"Era mágico": quem foi o lateral que ofuscou Marcelo na base, perdeu-se nas drogas e morreu aos 39 anos</h2>
+                    <p>Tratado como futuro craque na base do Fluminense, Ulisses se viciou em cocaína, teve passagem-relâmpago pelo Vasco e morreu dois anos após fugir de clínica de reabilitação</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/noticia3.png" alt="camisa verde"></td>
+                <td style="vertical-align: top;">
+                    <h2>Fluminense vê importância estratégica em duelo contra o Coritiba às vésperas da semifinal da Libertadores</h2>
+                    <p>Duelo pelo Brasileirão acontece nesta quinta-feira, no Maracanã, com transmissão da TV Globo</p>
+                </td>
+            </tr>
+        </table>
+    </div> 
+    
+</body>
+</html>
